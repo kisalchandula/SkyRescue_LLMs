@@ -1,31 +1,18 @@
-Bluesky Disaster Post Classifier
+🚨 SkyRescue_LLMs
 
-This project fetches posts from Bluesky, classifies them as disaster-related, and then extracts key disaster information (location, severity, reasoning) using a language model (Claude). It helps in identifying and processing disaster-related content from Bluesky to better understand the situation and aid in disaster response analysis.
+This project fetches posts from Bluesky, classifies them as disaster-related, and extracts key disaster information such as location, severity, and reasoning using a language model (Claude).
+It supports a better understanding and faster analysis of disaster situations through real-time social media content.
 
-Features
-Bluesky Post Fetcher: Fetches posts based on a search query.
+🌐 About Bluesky
 
-Disaster Post Classifier: Filters posts that are related to disasters using a keyword-based classifier.
+Bluesky is a decentralised social media platform open to everyone.
+It empowers users by offering control over their data and promoting an open, community-driven internet experience.
 
-Disaster Information Extractor: Extracts disaster-related details (location, severity, and reasoning) using Claude's API.
+⚙️ Setup Requirements
 
-LLM Integration: Uses a language model (Claude) to extract structured disaster event details from classified posts.
+1. Anthropic (Claude)
+Set up an Anthropic API key to access the Claude language model for disaster information extraction.
 
-Requirements
-Before you start, make sure you have the following dependencies installed:
+2. Bluesky
+Provide Bluesky account credentials to fetch posts from the platform.
 
-Python 3.7+
-
-.env file for Bluesky API credentials
-
-Packages:
-
-atproto: For interacting with the Bluesky API.
-
-dotenv: To load environment variables.
-
-llama_index: For interacting with Claude’s API.
-
-pydantic: For data validation.
-
-requests: For making HTTP requests (if needed).
