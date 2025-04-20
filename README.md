@@ -8,9 +8,9 @@ It empowers users by offering control over their data and promoting an open, com
 
 ## Setup Requirements
 
-# 1. Anthropic (Claude)
+# 1. Anthropic (Claude) LLM model
 Set up an Anthropic API key to access the Claude language model for disaster information extraction.
 
-# 2. Bluesky
+# 2. Bluesky Social Media Platform
 Provide Bluesky account credentials to fetch posts from the platform.
 
